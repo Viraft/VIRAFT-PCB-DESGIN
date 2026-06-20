@@ -60,8 +60,8 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2,
-          "min_island_area": 9.99999999996,
+          "min_clearance": 0.0,
+          "min_island_area": 10.0,
           "min_thickness": 0.2,
           "pad_connection": 1,
           "remove_islands": 0,
@@ -76,7 +76,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "pth_inside_courtyard|111635000|118815000|cf196041-06bd-4c8f-b9dc-99230507090b|6fdaa3d5-f63f-473c-b452-214f589f890f",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|90295000|118815000|912b5a4b-b99b-46fa-878b-4d59a76f3e8d|1a54d74c-d39d-4295-971b-183036227aa6",
+          ""
+        ],
+        [
+          "starved_thermal|104115000|118240000|48247af2-012b-4a7b-ab4d-fcbcb8cad539|912c9dc4-8b3d-4656-940d-fee446bffc3e|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|104115000|118240000|48247af2-012b-4a7b-ab4d-fcbcb8cad539|a129f819-5bd6-4793-81f3-aab04e672768|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|91415000|118240000|48247af2-012b-4a7b-ab4d-fcbcb8cad539|2b479d68-0abf-4fff-979b-7132d95ef5b4|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|91415000|118240000|48247af2-012b-4a7b-ab4d-fcbcb8cad539|96af91c2-836e-4254-9198-fc0b46c675d4|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
